@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import Main from "./myportfolio/parts/main";
 import Header from "./myportfolio/parts/header";
 import Footer from "./myportfolio/parts/footer";
