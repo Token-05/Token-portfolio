@@ -1,5 +1,4 @@
 import "../css/header.css"
-import "../css/all.css"
 
 function delay(n){
     return new Promise(function(resolve){
@@ -32,7 +31,7 @@ const Header = () => {
     return (
         <header className="main-header-box">
             <a className="h1-ver" href={`${process.env.PUBLIC_URL}/index.html`}>
-                <h1 className="font-serif py-12 laptop:text-8xl tablet:text-7xl phone:text-6xl text-red-400 bg-white" 
+                <h1 className="font-serif py-12 laptop:text-8xl tablet:text-7xl phone:text-6xl text-black bg-white" 
                 id="h1id">|</h1>
             </a>
             <div class="dropdown dropvar">
@@ -43,7 +42,7 @@ const Header = () => {
                 <ul class="dropdown-menu bg-green-200" aria-labelledby="dropdownMenuButton">
                     <li><a class="dropdown-item laptop:text-2xl tablet:text-xl phone:text-base" href="#about">About me</a></li>
                     <li><a class="dropdown-item laptop:text-2xl tablet:text-xl phone:text-base" href="#works">Works</a></li>
-                    <li><a class="dropdown-item laptop:text-2xl tablet:text-xl phone:text-base" href="#blog">Blog</a></li>
+                    <li><a class="dropdown-item laptop:text-2xl tablet:text-xl phone:text-base" href="#skills">Skills</a></li>
                     <li><a class="dropdown-item laptop:text-2xl tablet:text-xl phone:text-base" href="#contact">Contact</a></li>
                 </ul>
             </div>
