@@ -34,18 +34,6 @@ const Header = () => {
                 <h1 className="font-serif py-12 laptop:text-8xl tablet:text-7xl phone:text-6xl text-black bg-white" 
                 id="h1id">|</h1>
             </a>
-            <div class="dropdown dropvar">
-                <span className="material-icons btn text-black text-opacity-80 laptop:text-6xl tablet:text-3xl phone:text-xl" 
-                type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" data-offset="10,20">
-                    reorder
-                </span>
-                <ul class="dropdown-menu bg-green-200" aria-labelledby="dropdownMenuButton">
-                    <li><a class="dropdown-item laptop:text-2xl tablet:text-xl phone:text-base" href="#about">About me</a></li>
-                    <li><a class="dropdown-item laptop:text-2xl tablet:text-xl phone:text-base" href="#works">Works</a></li>
-                    <li><a class="dropdown-item laptop:text-2xl tablet:text-xl phone:text-base" href="#skills">Skills</a></li>
-                    <li><a class="dropdown-item laptop:text-2xl tablet:text-xl phone:text-base" href="#contact">Contact</a></li>
-                </ul>
-            </div>
         </header>
     );
 };
