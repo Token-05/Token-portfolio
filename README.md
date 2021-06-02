@@ -1,7 +1,5 @@
 # My portfolio
 
----
-
 ## CSS Frameworks
 - Bootstrap : https://getbootstrap.jp/
 - Tailwindcss : https://tailwindcss.com/
